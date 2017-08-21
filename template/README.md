@@ -2,35 +2,27 @@
 
 > {{ description }}
 
-## Build Setup
+### How to setup
 
-``` bash
-# install dependencies
-npm install
+``` pre anything run npm install```
 
-# serve with hot reload at localhost:8080
+``` js
+
+# development
+# will start a dev server at localhost:8080
+
 npm run dev
 
-# build for production with minification
+# staging
+# will build the files for quality assurance
+
+npm run staging
+
+# production
+# will build the files for production
+
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-{{#unit}}
-
-# run unit tests
-npm run unit
-{{/unit}}
-{{#e2e}}
-
-# run e2e tests
-npm run e2e
-{{/e2e}}
-{{#if_or unit e2e}}
-
-# run all tests
-npm test
-{{/if_or}}
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[![alt text](https://s3-eu-west-1.amazonaws.com/rk-solutions/github_footer.png)](https://deveo.dk)

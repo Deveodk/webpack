@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
+    "staging": "node build/staging-build.js",
     "build": "node build/build.js"{{#unit}},
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run"{{/unit}}{{#e2e}},
     "e2e": "node test/e2e/runner.js"{{/e2e}}{{#if_or unit e2e}},
@@ -15,7 +16,13 @@
   },
   "dependencies": {
     "vue": "^2.3.3"{{#router}},
-    "vue-router": "^2.6.0"{{/router}}
+    "vue-router": "^2.6.0"{{/router}},
+    "@deveodk/vue-core-authenticator": "0.0.6",
+    "@deveodk/vue-error-tracker": "^1.1.0",
+    "@deveodk/vue-online": "^1.0.2",
+    "@deveodk/vue-seo": "^1.0.1",
+    "@deveodk/vue-toastr": "^1.0.1",
+    "axios": "0.16.2",
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
