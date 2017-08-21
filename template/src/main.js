@@ -33,6 +33,7 @@ Vue.config.devtools = process.env.DEV_TOOLS{{#if_eq lintConfig "airbnb"}};{{/if_
 
 import i18n from './locales/index'
 
+import moment from 'moment'
 import VueMoment from 'vue-moment'
 Vue.use(VueMoment)
 require('moment/locale/da')
@@ -97,12 +98,12 @@ new Vue({
   {{/router}}
   i18n,
   computed: {
-    language() {
+    language () {
         return Vue.config.lang
     }
   },
   watch: {
-    language() {
+    language () {
         moment.locale(this.language)
     }
   },
