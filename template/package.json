@@ -22,7 +22,11 @@
     "@deveodk/vue-online": "^1.0.2",
     "@deveodk/vue-seo": "^1.0.1",
     "@deveodk/vue-toastr": "^1.0.1",
-    "axios": "0.16.2"
+    "axios": "0.16.2",
+    "vue-axios": "2.0.1",
+    "raven-js": "^3.17.0",
+    "vue-moment": "^2.0.2",
+    "vue-i18n": "^7.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
