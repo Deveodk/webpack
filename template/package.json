@@ -22,7 +22,7 @@
     "@deveodk/vue-online": "^1.0.2",
     "@deveodk/vue-seo": "^1.0.1",
     "@deveodk/vue-toastr": "^1.0.1",
-    "axios": "0.16.2",
+    "axios": "0.16.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
