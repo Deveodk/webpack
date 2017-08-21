@@ -35,6 +35,8 @@ module.exports = {
     {{#if_eq lintConfig "standard"}}
     // allow paren-less arrow functions
     'arrow-parens': 0,
+    // Disable indentation linting
+    'indent': 0,
     // allow async-await
     'generator-star-spacing': 0,
     {{/if_eq}}
